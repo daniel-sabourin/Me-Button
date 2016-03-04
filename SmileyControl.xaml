@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Project_0.SmileyControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             d:DesignHeight="128" d:DesignWidth="128" Name="userControl">
+    <Grid>
+
+        <Canvas Width="128" Height="128">
+            <Image Opacity="0" Name="controllerImage" Height="48" Width="48" Source="/Project%200;component/resources/interests/controller.png" Canvas.Top="-30" Canvas.Left="40"></Image>
+            <Image Opacity="0" Name="hardDriveImage" Height="48" Width="48" Source="/Project%200;component/resources/interests/hard drive.png" Canvas.Left="104" Canvas.Top="108"></Image>
+            <Image Opacity="0" Name="leagueImage" Height="48" Width="48" Source="/Project%200;component/resources/interests/league.png" Canvas.Top="-20" Canvas.Left="-24"></Image>
+            <Image Opacity="0" Name="minecraftImage" Height="48" Width="48" Source="/Project%200;component/resources/interests/minecraft.png" Canvas.Left="104" Canvas.Top="-20"></Image>
+            <Image Opacity="0" Name="soccerImage" Height="48" Width="48" Source="/Project%200;component/resources/interests/soccer.png" Canvas.Left="40" Canvas.Top="118"></Image>
+            <Image Opacity="0" Name="steamImage" Height="48" Width="48" Source="/Project%200;component/resources/interests/steam.png" Canvas.Top="104" Canvas.Left="-20"></Image>
+        </Canvas>
+
+        <Image Source="/Project%200;component/resources/faces/smile1.png" Name="smile1" Opacity="0"></Image>
+        <Image Source="/Project%200;component/resources/faces/smile2.png" Name="smile2" Opacity="0"></Image>
+        <Image Source="/Project%200;component/resources/faces/smile3.png" Name="smile3" Opacity="0"></Image>
+        <Image Source="/Project%200;component/resources/faces/grumpy.png" Name="grumpy" Opacity="0"></Image>
+        <Image Source="/Project%200;component/resources/faces/idle.png" Name="idle" Opacity="1"></Image>
+
+        <Button Opacity="0" Click="Button_Click" Focusable="False"></Button>  
+    </Grid>
+</UserControl>
